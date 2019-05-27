@@ -9,7 +9,7 @@
 		<Label Text="Welcome to Xamarin.Forms!" 
 		   HorizontalOptions="Center"
 		   VerticalOptions="CenterAndExpand" />
-		<Button Image="eye_24.png" Text="Eye"/>
+		<Button ImageSource="eye_24.png" Text="Eye"/>
 	</StackLayout>
 
 </ContentPage>
