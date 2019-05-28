@@ -5,7 +5,7 @@
 			 x:Class="Demo2.MainPage">
 
 	<StackLayout>
-		<!-- Place new controls here -->
+		<Image Source="eye_24.png"/>
 		<Label Text="Welcome to Xamarin.Forms!" 
 		   HorizontalOptions="Center"
 		   VerticalOptions="CenterAndExpand" />
