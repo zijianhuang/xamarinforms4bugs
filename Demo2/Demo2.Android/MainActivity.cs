@@ -7,6 +7,7 @@ using Android.Views;
 using Android.Widget;
 using Android.OS;
 
+
 namespace Demo2.Droid
 {
     [Activity(Label = "Demo2", Icon = "@mipmap/icon", Theme = "@style/MainTheme", MainLauncher = true, ConfigurationChanges = ConfigChanges.ScreenSize | ConfigChanges.Orientation)]
@@ -19,7 +20,8 @@ namespace Demo2.Droid
 
             base.OnCreate(savedInstanceState);
             global::Xamarin.Forms.Forms.Init(this, savedInstanceState);
-            LoadApplication(new App());
+			Xamarin.Forms.FormsMaterial.Init(this, savedInstanceState);
+			LoadApplication(new App());
         }
     }
 }
